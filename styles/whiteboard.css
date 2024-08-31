@@ -1,0 +1,43 @@
+.whiteboard-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 20vw;
+  height: 100vh;
+  color: black;
+  align-items: center;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+.whiteboard-container::-webkit-scrollbar {
+  display: none;
+}
+
+.whiteboard-container {
+  display: none;
+}
+
+.generate-soloution {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 1px, black, solid;
+  width: 90%;
+  position: relative;
+  top: 5vh;
+  margin-top: 1vw;
+  margin-bottom: 6vh;
+  font-size: 120%;
+}
+
+.best-approx {
+  font-weight: bold;
+  font-size: 300%;
+  margin-bottom: 1vh;
+}
+
+.step-div {
+  font-size: 130%;
+  margin-bottom: 1vh;
+}

@@ -1,0 +1,69 @@
+.word-container {
+  background-color: blue;
+  width: 80vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.word-timer-container {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+.word-boxes-container {
+  width: 90%;
+  height: 50%;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.letter-box {
+  background-color: white;
+  border: solid, 2px, black;
+  width: 5vw;
+  height: 5vw;
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+  line-height: 5vw;
+}
+
+.letter-button-container {
+  display: flex;
+  align-items: center;
+}
+
+.vowel-button,
+.consonant-button,
+.word-reset-button{
+  font-size: 150%;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: none;
+  width: 20vw;
+  height: 10vh;
+  margin: 5%;
+  cursor: pointer;
+}
+
+.vowel-button:active,
+.consonant-button:active,
+.word-reset-button:active{
+  background-color: #ccc;
+}
+
+.vowel-button:disabled,
+.consonant-button:disabled {
+  background-color: lightpink;
+  cursor: default;
+}

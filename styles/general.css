@@ -1,0 +1,75 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  font-family: Arial, sans-serif;
+}
+
+.controls {
+  position: absolute;
+  top: 2vh;
+  left: 2vw;
+}
+
+.dict-corner-toggle,
+.whiteboard-toggle,
+.word-game-button,
+.number-game-button,
+.conundrum-button {
+  background-color: white;
+  border: none;
+  height: 4vw;
+  width: 4vw;
+  padding: 0;
+  margin-right: 2vw;
+  font-size: 150%;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+}
+
+.dict-corner-toggle:active,
+.whiteboard-toggle:active,
+.word-game-button:active,
+.number-game-button:active,
+.conundrum-button:active {
+  background-color: #ccc;
+}
+
+
+.dict-corner-toggle-img {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+}
+
+.whiteboard-toggle-img {
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+}
+
+.game-selection-container{
+  position: absolute;
+  left: 2vw;
+  bottom: 2vw;
+  background-color: blue;
+}
+
+.number-container,
+.conundrum-container {
+  display: none;
+}
+
+.whiteboard-toggle {
+  display: none;
+}
+

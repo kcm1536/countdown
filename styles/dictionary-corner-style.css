@@ -1,0 +1,56 @@
+.dict-corner-container {
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+  width: 20vw;
+  height: 100vh;
+}
+
+.dict-corner-container {
+  display: none;
+}
+
+.best-word-container,
+.valid-word-container {
+  background-color: rgb(228, 228, 228);
+  color: black;
+  width: 20vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.valid-word-container::-webkit-scrollbar,
+.best-word-container::-webkit-scrollbar {
+  display: none;
+}
+
+.valid-word-input,
+.find-best-words-button {
+  position: relative;
+  top: 5vh;
+  color: black;
+  width: 16vw;
+  margin-bottom: 8vh;
+  margin-top: 1vh;
+  font-size: 120%;
+}
+
+.find-best-words-button {
+  cursor: pointer;
+  background-color: white;
+  border: 1px, black, solid;
+}
+
+.find-best-words-button:active {
+  background-color: #ccc;
+}
+
+.definition-element,
+.best-word-element {
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}

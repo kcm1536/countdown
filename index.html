@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Countdown</title>
+  <link rel="stylesheet" href="styles/word-style.css">
+  <link rel="stylesheet" href="styles/dictionary-corner-style.css">
+  <link rel="stylesheet" href="styles/number-style.css">
+  <link rel="stylesheet" href="styles/whiteboard.css">
+  <link rel="stylesheet" href="styles/conundrum-style.css">
+  <link rel="stylesheet" href="styles/general.css">
+</head>
+<body>
+
+  <div class="controls">
+    <button class="dict-corner-toggle"><img class="dict-corner-toggle-img" src="images/dictionary.png"></button>
+    <button class="whiteboard-toggle"><img class="whiteboard-toggle-img" src="images/whiteboard.png"></button>
+  </div>
+
+  <div class="word-container">
+    <div class="word-timer-container">
+      <div class="word-timer">TIME LEFT: <span class="word-time-left">30</span> seconds</div>
+    </div>
+    <div class="word-boxes-container">
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+      <div class="letter-box"></div>
+    </div>
+    <div class="letter-button-container">
+      <button class="vowel-button">Vowel</button>
+      <button class="consonant-button">Consonant</button>
+    </div>
+    <div class="word-reset-button-container">
+      <button class="word-reset-button">Reset</button>
+    </div>
+  </div>
+
+  <div class="number-container">
+    <div class="number-timer-container">
+      <div class="number-timer">TIME LEFT: <span class="number-time-left">30</span> seconds</div>
+    </div>
+    <div class="target-number">000</div>
+    <div class="number-boxes-container">
+      <div class="number-box"></div>
+      <div class="number-box"></div>
+      <div class="number-box"></div>
+      <div class="number-box"></div>
+      <div class="number-box"></div>
+      <div class="number-box"></div>
+    </div>
+    <div class="number-button-container">
+      <button class="small-number-button">Small Number</button>
+      <button class="big-number-button">Big Number</button>
+    </div>
+    <div class="number-reset-button-container">
+      <button class="number-reset-button">Reset</button>
+    </div>
+  </div>
+
+  <div class="conundrum-container">
+    <div class="conundrum-timer-container">
+      <div class="conundrum-timer">TIME LEFT: <span class="conundrum-time-left">30</span> seconds</div>
+    </div>
+    <div class="conundrum-boxes-container">
+      <div class="conundrum-box"></div>
+      <div class="conundrum-box"></div>
+      <div class="conundrum-box"></div>
+      <div class="conundrum-box"></div>
+      <div class="conundrum-box"></div>
+      <div class="conundrum-box"></div>
+      <div class="conundrum-box"></div>
+      <div class="conundrum-box"></div>
+      <div class="conundrum-box"></div>
+    </div>
+    <div class="conundrum-button-container">
+      <button class="conundrum-generate-button">Generate</button>
+    </div>
+    <div class="conundrum-reset-button-container">
+      <button class="conundrum-reset-button">Reset</button>
+    </div>
+  </div>
+
+  <div class="game-selection-container">
+    <button class="word-game-button">A</button>
+    <button class="number-game-button">1</button>
+    <button class="conundrum-button">?</button>
+  </div>
+
+  <div class="dict-corner-container">
+    <div class="best-word-container">
+      <button class="find-best-words-button">Find Best Words</button>
+      <div class="best-word-display">
+        <div class="best-word-element"></div>
+      </div>
+    </div>
+    <div class="valid-word-container">
+      <input type="text" placeholder="Enter word" class="valid-word-input">
+      <div class="valid-word-definition">
+        <div class="definition-element">Input word to check</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="whiteboard-container">
+    <button class="generate-soloution">Generate Solution</button>
+    <div class="soloution-display">2*3</div>
+  </div>
+
+
+  <script src="scripts/variables.js"></script>
+  <script src="scripts/general.js"></script>
+  <script src="scripts/wordGame.js"></script>
+  <script src="scripts/dictionaryCorner.js"></script>
+  <script src="scripts/numberGame.js"></script>
+  <script src="scripts/whiteboard.js"></script>
+  <script src="scripts/conundrumGame.js"></script>
+</body>
+</html>
